@@ -20,3 +20,5 @@ La prueba consiste en crear 3 paginas webs:
 Cada pagina necesita tener un Layout de CSS (Flexbox o Grid) y que sea Responsive.
 
 En nuestro caso, hemos optado por el Layout de Flexbox con cierta respuesta Responsive.
+
+Click en el [enlace](https://guillermoraez.github.io/Webpage-Substitute/)
