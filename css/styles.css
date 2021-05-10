@@ -1,0 +1,161 @@
+:root {
+    --clr-text: #312f2f;
+    --clr-primary: #0d84a1;
+    --clr-accent: #764981;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--clr-primary);
+    font-size: 1.25rem;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: auto;
+    width: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    padding: 3em 1em;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    line-height: 0.8;
+    letter-spacing: 1px;
+}
+
+p {
+    margin-bottom: 0.85em;
+}
+
+section div {
+    margin: 1em;
+}
+
+.section-title-small {
+    font-size: 3rem;
+    
+}
+
+.section-title-small small {
+    font-size:0.7em;
+    /* line-height: 0.7; */
+    display: block;
+}
+
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+header {
+    padding: 1em 0 2em;
+}
+
+div ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+div a {
+    display: inline-block;
+    padding: 0.5em;
+    color: var(--clr-primary);
+    text-decoration: none;
+}
+
+div a:hover,
+div a:focus {
+    color: var(--clr-accent);
+    text-decoration: underline;
+}
+
+/* buttons */
+
+/* buttons */
+
+/* Homepage styles */
+
+.hero {
+    background-color: rgb(122, 122, 122);
+    background-image: url(../img/Background\ image.jpeg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 15vh 1em;
+}
+
+.welcome {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+    background: var(--clr-accent);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0;
+}
+
+.hero2 {
+    background-color: rgb(122, 122, 122);
+    background-image: url(../img/photo-1515825838458-f2a94b20105a.jpeg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 15vh 1em;
+}
+
+.about-us__body {
+    padding: 1.5em 1em 3em;
+}
+
