@@ -1,3 +1,22 @@
+:root {
+    --clr-text: #312f2f;
+    --clr-primary: #0d84a1;
+    --clr-accent: #764981;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--clr-primary);
+    font-size: 1.25rem;
+}
+
 body {
     margin: 0;  
     overflow: auto;
@@ -127,7 +146,7 @@ section{
 }
 
 @media only screen and (max-width: 40em) {
-    #form, .baseFormulario, .fondoVacio {
+    #form, .Formulario, .fondoVacio {
         transform: scale(0.8);
         padding: unset;
     } 
@@ -173,3 +192,7 @@ button:hover {
     align-items: center;
     border-radius: 0.5em;
 }
+
+.blank {
+    width: 10em;
+    }

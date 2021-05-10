@@ -17,14 +17,80 @@ html {
     font-size: 1.25rem;
 }
 
-body {
-    margin: 0;
-}
-
 header {
     height: auto;
     width: auto;
 }
+
+body {
+    margin: 0;  
+    overflow: auto;
+    height: 100%;
+    background: url(../img/Background\ image.jpeg);
+    background-size:cover;
+} 
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* BARRA DE NAVEGACION */
+
+.nav{
+    color: white;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: #0e4c4e;
+    transition: .3s;
+    transform: scale(1.5);
+    cursor: pointer;
+    text-decoration: wavy;
+}
+
+.nav {
+    transition: .3s;
+}
+
+.Navbarra {
+    height: 5em;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(19, 214, 221), rgb(14, 50, 80) );
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.Izquierda{
+    height: auto;
+    width: auto;
+    margin: 2em;
+    color: white;
+}
+
+#gr {
+    height: 75%;
+    width: 75%;
+    color: white;
+}
+
+.Derecha{
+    width: 20em;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 img {
     display: block;
@@ -157,5 +223,21 @@ div a:focus {
 
 .about-us__body {
     padding: 1.5em 1em 3em;
+}
+
+.NavFooter {
+    height: 5em;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(19, 214, 221), rgb(14, 50, 80) );
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.blank {
+width: 10em;
 }
 
